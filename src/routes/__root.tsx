@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Airlie Parks";
+const APP_NAME = "Airlie Parks · AORA";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,9 +14,9 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Fact sheet of caravan parks in and around Airlie Beach: drive time from the lagoon, facilities, Google and Tripadvisor scores, and links.",
+          "AORA fact sheet of caravan parks in and around Airlie Beach, for Dingo Dave’s stay ledger. Drive time from the lagoon, facilities, and Google and Tripadvisor scores.",
       },
-      { name: "theme-color", content: "#14241f" },
+      { name: "theme-color", content: "#001838" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -25,7 +25,7 @@ export const Route = createRootRoute({
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;500;600&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Raleway:wght@600;700&display=swap",
       },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },

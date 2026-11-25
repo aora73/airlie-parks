@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Fraunces", Georgia, serif;
-  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
-  --color-ink: #14241f;
-  --color-paper: #f3eee4;
-  --color-sand: #e4d9c6;
-  --color-reef: #0f6e66;
-  --color-foam: #e7f3ef;
-  --color-clay: #b85c38;
-  --color-muted: #5e6d66;
-  --color-line: #d9d0c2;
+  --font-display: "Raleway", "Barlow", ui-sans-serif, sans-serif;
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #001838;
+  --color-paper: #f6f4ef;
+  --color-sand: #d5dee6;
+  --color-reef: #c83f28;
+  --color-foam: #ffffff;
+  --color-clay: #8c2f22;
+  --color-muted: #3a4d60;
+  --color-line: #d5dde4;
 }
 
 @layer base {
@@ -69,7 +69,7 @@
   font-weight: 600;
   font-size: 0.8125rem;
   border: 2px solid var(--color-paper);
-  box-shadow: 0 1px 4px rgb(20 36 31 / 0.35);
+  box-shadow: 0 1px 4px rgb(0 24 56 / 0.35);
 }
 .park-pin.is-on {
   background: var(--color-reef);
@@ -87,7 +87,7 @@
   font-weight: 600;
   letter-spacing: 0.02em;
   white-space: nowrap;
-  box-shadow: 0 1px 4px rgb(20 36 31 / 0.3);
+  box-shadow: 0 1px 4px rgb(0 24 56 / 0.3);
 }
 
 .leaflet-tooltip {

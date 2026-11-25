@@ -62,15 +62,42 @@ function Home() {
   const mapped = visible.filter((park) => scope === "coast" || park.driveMin < 10);
 
   return (
-    <main className="mx-auto max-w-6xl px-4 pb-16 pt-6 md:px-8 md:pt-10">
+    <>
+      <div className="bg-ink text-paper">
+        <div className="h-1.5 bg-reef" />
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:px-8">
+          <a
+            href="https://www.australianoffroadacademy.com.au/"
+            className="flex min-h-11 items-center gap-3 text-paper"
+          >
+            <img src="/brand/dingo-mark.png" alt="" className="size-11 bg-paper p-1" />
+            <span>
+              <span className="block text-xs tracking-wide text-sand">Australian Offroad Academy</span>
+              <span className="font-display text-lg font-bold leading-none">Dingo Dave</span>
+            </span>
+          </a>
+          <a
+            href="https://aora-fieldstay.grok.me/"
+            className="inline-flex min-h-11 items-center text-sm font-semibold underline decoration-reef underline-offset-4"
+          >
+            Stay ledger
+          </a>
+        </div>
+      </div>
+      <main className="mx-auto max-w-6xl px-4 pb-16 pt-6 md:px-8 md:pt-10">
       <header className="border-b border-line pb-6">
-        <p className="text-sm font-medium tracking-wide text-reef">Whitsundays · Queensland</p>
-        <h1 className="mt-2 font-display text-4xl font-semibold leading-tight text-ink md:text-6xl">
+        <p className="text-sm font-semibold tracking-wide text-reef">AORA · Whitsundays</p>
+        <h1 className="mt-2 font-display text-4xl font-bold leading-tight text-ink md:text-6xl">
           Caravan parks in and around Airlie Beach
         </h1>
         <p className="mt-3 max-w-3xl text-base text-muted md:text-lg">
           Eight parks that still take a van or a tent. Drive times are measured by car from the
-          Airlie Beach Lagoon — the centre of town — not copied from a brochure.
+          Airlie Beach Lagoon — the centre of town — not copied from a brochure. This sheet sits
+          beside the{" "}
+          <a href="https://aora-fieldstay.grok.me/" className="font-semibold text-reef underline underline-offset-2">
+            AORA stay ledger
+          </a>
+          .
         </p>
         <figure className="mt-6 overflow-hidden border border-line">
           <img
@@ -104,7 +131,7 @@ function Home() {
               Map
             </h2>
             <p className="text-sm text-muted">
-              Clay dot is the lagoon. Numbers are the drive rank. Airlie is the default so the
+              The red dot is the lagoon. Numbers are the drive rank. Airlie is the default so the
               five close parks stay readable.
             </p>
           </div>
@@ -391,7 +418,27 @@ function Home() {
           </li>
         </ul>
       </section>
+      <footer className="mt-10 border-t border-line pt-6 text-sm text-muted">
+        <p>
+          Australian Offroad Academy · Dingo Dave.{" "}
+          <a href="https://aora-fieldstay.grok.me/" className="font-semibold text-ink underline underline-offset-2">
+            Accommodation ledger
+          </a>
+          {" · "}
+          <a href="https://airlie-parks.grok.me/" className="font-semibold text-ink underline underline-offset-2">
+            This page
+          </a>
+          {" · "}
+          <a
+            href="https://github.com/aora73/airlie-parks"
+            className="font-semibold text-ink underline underline-offset-2"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </main>
+    </>
   );
 }
 
