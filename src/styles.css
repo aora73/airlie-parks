@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #14241f;
+  --color-paper: #f3eee4;
+  --color-sand: #e4d9c6;
+  --color-reef: #0f6e66;
+  --color-foam: #e7f3ef;
+  --color-clay: #b85c38;
+  --color-muted: #5e6d66;
+  --color-line: #d9d0c2;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  ::selection {
+    background: var(--color-reef);
+    color: var(--color-paper);
+  }
+}
+
+.map-frame {
+  height: 22rem;
+  width: 100%;
+  background: var(--color-sand);
+}
+@media (min-width: 768px) {
+  .map-frame {
+    height: 32rem;
+  }
+}
+
+.compare-table {
+  min-width: 58rem;
+}
+
+.leaflet-div-icon.park-pin-wrap,
+.leaflet-div-icon.lagoon-pin {
+  background: transparent;
+  border: none;
+}
+
+.park-pin {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  border: 2px solid var(--color-paper);
+  box-shadow: 0 1px 4px rgb(20 36 31 / 0.35);
+}
+.park-pin.is-on {
+  background: var(--color-reef);
+  outline: 2px solid var(--color-ink);
+}
+
+.lagoon-pin span {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--color-clay);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgb(20 36 31 / 0.3);
+}
+
+.leaflet-tooltip {
+  font-family: var(--font-sans);
+  background: var(--color-ink);
+  color: var(--color-paper);
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  box-shadow: none;
+}
+.leaflet-tooltip-top:before {
+  border-top-color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
