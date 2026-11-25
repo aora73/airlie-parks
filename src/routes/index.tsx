@@ -91,9 +91,9 @@ function Home() {
           Caravan parks in and around Airlie Beach
         </h1>
         <p className="mt-3 max-w-3xl text-base text-muted md:text-lg">
-          Eight parks that still take a van or a tent. Drive times are measured by car from the
-          Airlie Beach Lagoon — the centre of town — not copied from a brochure. This sheet sits
-          beside the{" "}
+          Airlie Beach is a favoured stopover for the AORA team on travel days. This sheet covers
+          eight parks that still take a van or a tent. Drive times are measured by car from the
+          Airlie Beach Lagoon — the centre of town — not copied from a brochure. It sits beside the{" "}
           <a href="https://aora-fieldstay.grok.me/" className="font-semibold text-reef underline underline-offset-2">
             AORA stay ledger
           </a>
@@ -294,7 +294,7 @@ function Home() {
 
       <section className="mt-12" aria-labelledby="parks-heading">
         <h2 id="parks-heading" className="font-display text-2xl font-semibold text-ink">
-          Each park
+          Explore the parks
         </h2>
         <div className="mt-4 grid gap-6">
           {visible.map((park) => (
