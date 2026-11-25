@@ -90,7 +90,7 @@ export const PARKS: Park[] = [
       "The closest park to the lagoon by car, on the Cannonvale side of Shute Harbour Road beside the shopping strip. Coles is next door. The foreshore walk into Airlie takes about 40 minutes, so most people drive or catch the bus for the reef boats. On site: two pools, a café and bar, camp kitchen, laundry and a dump point.",
     watch:
       "Some recent guests still call the amenities dated, and the road out front is busy. A 2026 review noted EV charging on site — confirm a bay when you book.",
-    photo: "/parks/nrma.jpg",
+    photo: "parks/nrma.jpg",
     photoCaption:
       "Pioneer Bay and Pigeon Island from Coral Esplanade, Cannonvale, in 2007. The park sits on this side of town, beside Cannonvale Beach. This is the bay, not the grounds.",
     photoCredit: "Steve Gibson, CC BY 2.0",
@@ -136,7 +136,7 @@ export const PARKS: Park[] = [
       "On the Jubilee Pocket corner, east of the main street. The operator puts central Airlie at an 18-minute walk and the lagoon at about four minutes in the car. Resort pool, pump track, playground, BBQs, camp kitchen and laundry. Guests regularly mention the 4pm bird feeding. Buses 860 and 861 stop nearby for the marina.",
     watch:
       "This is a leafy holiday park, not a slide park. The little supermarket nearby is handy; the big shops are back in Cannonvale.",
-    photo: "/parks/tasman.jpg",
+    photo: "parks/tasman.jpg",
     photoCaption:
       "Airlie Beach main street. Tasman puts the centre of town at an 18-minute walk from the park.",
     photoCredit: "Richard N Horne, CC BY 4.0",
@@ -181,7 +181,7 @@ export const PARKS: Park[] = [
       "Set against Conway National Park, east of town towards Shute Harbour. Formerly BIG4 Airlie Cove. The park sells itself on wildlife in the grounds — lorikeets, wallabies, goannas — plus a pool and a water park that Discovery says is being upgraded while the pool stays open. A bus stops out the front. Third-party listings put Port of Airlie about a 3-minute drive away.",
     watch:
       "Tourism Whitsundays says pet-friendly sites are available if you enquire. Another booking site says no pets. Ring before you tow a dog.",
-    photo: "/parks/discovery.jpg",
+    photo: "parks/discovery.jpg",
     photoCaption:
       "The BIG4 park at Jubilee Pocket in August 2009. That park is now Discovery Parks – Airlie Beach.",
     photoCredit: "Geoff & Dianne Rhodes, CC BY 2.0",
@@ -226,7 +226,7 @@ export const PARKS: Park[] = [
       "The big family resort on Shute Harbour Road, run by the McKinnon family since 1993. Thirteen waterslides, a lagoon pool, jumping pillows, floodlit mini golf, an animal park, outdoor cinema and a camp kitchen. It is the highest-rated park in this set on both Google and Tripadvisor. You will use the car for the main street.",
     watch:
       "A new accommodation wing, café and resort works are under construction. The park says work zones are fenced off from guests. No pets.",
-    photo: "/parks/adventure.jpg",
+    photo: "parks/adventure.jpg",
     photoCaption:
       "Airlie Beach, looking west over Pioneer Bay. Adventure Whitsunday is further along Shute Harbour Road, on the Cannonvale side. This is the bay, not the water park.",
     photoCredit: "John Robert McPherson, CC BY-SA 4.0",
@@ -271,7 +271,7 @@ export const PARKS: Park[] = [
       "Seven acres against Conway National Park at Flametree, between Airlie and Shute Harbour. Solar-heated pool, outdoor cinema, camp kitchen, BBQs, kiosk, laundry and a tour desk. BIG4 currently advertises dogs year-round. The mapped drive from the lagoon is 8 minutes — the same ballpark as Adventure, but in the opposite direction.",
     watch:
       "Review summaries mention dated cabins and early aircraft noise. Ask which rows sit away from the flight path if sleep matters.",
-    photo: "/parks/islands.jpg",
+    photo: "parks/islands.jpg",
     photoCaption: "Boats in Shute Harbour, a few minutes east of the Flametree park.",
     photoCredit: "John Robert McPherson, CC BY-SA 4.0",
     photoCreditUrl:
@@ -315,7 +315,7 @@ export const PARKS: Park[] = [
       "Whitsunday Regional Council's small town park on Anzac Road, next to the bowls club, tennis courts, showgrounds and golf club. Fifty-six powered sites, sixteen unpowered, and two cabins that sleep two. Camp kitchen, BBQs, communal TV and a coin laundry. The main street is about a 15-minute walk. Whitsunday Coast Airport is the next suburb over.",
     watch:
       "Tripadvisor lists a pool because the public pool is next door — it is not inside the park. The 4.5 score is from only 22 reviews. A separate Google total was not published in the sources checked.",
-    photo: "/parks/proserpine.jpg",
+    photo: "parks/proserpine.jpg",
     photoCaption:
       "Proserpine Entertainment Centre, May 2023. The holiday park is on Anzac Road, a short walk from the main street.",
     photoCredit: "Greditdesu, CC BY-SA 4.0",
@@ -360,7 +360,7 @@ export const PARKS: Park[] = [
       "South of the airport on a long open beach, with the Whitsunday islands on the horizon. Pool, splash park, jumping pillow, tennis, pedal karts, camp kitchen and George's Diner on site. Dogs are accepted on selected sites and in nominated cabins. Guests who like it talk about the stroll to the sand and how maintained the grounds are.",
     watch:
       "You are giving up the lagoon. Google review summaries flag mosquitoes and patchy after-hours check-in. Stinger season on this coast runs roughly October to May.",
-    photo: "/parks/conway.jpg",
+    photo: "parks/conway.jpg",
     photoCaption:
       "Conway Beach at low tide, photographed from the cliff in 1937–38. The park is on this beach now. This is not a current photo of the grounds.",
     photoCredit: "State Library of Queensland, public domain",
@@ -406,7 +406,7 @@ export const PARKS: Park[] = [
       "The northern option, on the Gloucester side of the cape. New pool, camp kitchen with gas BBQs, timber-fired BBQ, shared fire pit, kiosk, rec room, coin laundry and a chemical-free dump point. Every site takes a restrained dog. The beach and the pub are walkable. There is no town water network here — the park has rainwater if you need it.",
     watch:
       "Lowest Tripadvisor score in this set (3.3 from 109). Bring groceries; Proserpine is the supply run. Treat the drive as an hour, not the brochure's 45 minutes, if you are towing.",
-    photo: "/parks/hydeaway.jpg",
+    photo: "parks/hydeaway.jpg",
     photoCaption: "Hydeaway Bay in 2021. The caravan park is a short walk from this beach.",
     photoCredit: "Allan Henderson, CC BY 2.0",
     photoCreditUrl: "https://commons.wikimedia.org/wiki/File:Hydeaway_Bay,_2021.jpg",

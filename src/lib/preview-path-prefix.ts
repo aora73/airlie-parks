@@ -36,6 +36,11 @@ export function prefixRewrite(prefix: string): LocationRewrite {
 
 export function previewPathRewrite(): LocationRewrite | undefined {
   if (typeof window === "undefined") return undefined;
-  const prefix = previewPathPrefix(window.location.hostname, window.location.pathname);
+  const host = window.location.hostname.toLowerCase();
+  const path = window.location.pathname;
+  if (host.endsWith(".github.io") && (path === "/airlie-parks" || path.startsWith("/airlie-parks/"))) {
+    return prefixRewrite("/airlie-parks");
+  }
+  const prefix = previewPathPrefix(host, path);
   return prefix ? prefixRewrite(prefix) : undefined;
 }

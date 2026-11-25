@@ -70,7 +70,7 @@ function Home() {
             href="https://www.australianoffroadacademy.com.au/"
             className="flex min-h-11 items-center gap-3 text-paper"
           >
-            <img src="/brand/dingo-mark.png" alt="" className="size-11 bg-paper p-1" />
+            <img src="brand/dingo-mark.png" alt="" className="size-11 bg-paper p-1" />
             <span>
               <span className="block text-xs tracking-wide text-sand">Australian Offroad Academy</span>
               <span className="font-display text-lg font-bold leading-none">Dingo Dave</span>
@@ -101,7 +101,7 @@ function Home() {
         </p>
         <figure className="mt-6 overflow-hidden border border-line">
           <img
-            src="/parks/lagoon.jpg"
+            src="parks/lagoon.jpg"
             alt="People swimming in the Airlie Beach Lagoon, with forested hills behind the town."
             className="h-64 w-full object-cover sm:h-80 md:h-[28rem]"
           />
@@ -424,7 +424,7 @@ function Home() {
             Accommodation ledger
           </a>
           {" · "}
-          <a href="https://airlie-parks.grok.me/" className="font-semibold text-ink underline underline-offset-2">
+          <a href="https://aora73.github.io/airlie-parks/" className="font-semibold text-ink underline underline-offset-2">
             This page
           </a>
           {" · "}
