@@ -63,22 +63,18 @@ function Home() {
 
   return (
     <>
-      <div className="bg-ink text-paper">
+      <div className="border-b border-line bg-paper">
         <div className="h-1.5 bg-reef" />
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:px-8">
-          <a
-            href="https://www.australianoffroadacademy.com.au/"
-            className="flex min-h-11 items-center gap-3 text-paper"
-          >
-            <img src="brand/dingo-mark.png" alt="" className="size-11 bg-paper p-1" />
-            <span>
-              <span className="block text-xs tracking-wide text-sand">Australian Offroad Academy</span>
-              <span className="font-display text-lg font-bold leading-none">Dingo Dave</span>
-            </span>
-          </a>
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 md:px-8">
+          <div className="flex min-w-0 items-center gap-4">
+            <a href="https://www.australianoffroadacademy.com.au/" className="inline-flex min-h-11 items-center">
+              <img src="brand/aora-logo.png" alt="Australian Offroad Academy" className="h-12 w-auto md:h-16" />
+            </a>
+            <img src="brand/dingo-mark.png" alt="Dingo Dave" className="h-14 w-auto md:h-16" />
+          </div>
           <a
             href="https://aora-fieldstay.grok.me/"
-            className="inline-flex min-h-11 items-center text-sm font-semibold underline decoration-reef underline-offset-4"
+            className="inline-flex min-h-11 shrink-0 items-center text-sm font-semibold text-ink underline decoration-reef underline-offset-4"
           >
             Stay ledger
           </a>
@@ -319,24 +315,22 @@ function Home() {
                 selected?.id === park.id ? "border-reef" : "border-line"
               }`}
             >
-              <figure className="bg-sand">
-                <img
-                  src={park.photo}
-                  alt={park.photoCaption}
-                  className="h-56 w-full object-cover md:h-72"
-                />
-                <figcaption className="px-3 py-2 text-xs leading-snug text-muted">
-                  {park.photoCaption}{" "}
-                  <a
-                    href={park.photoCreditUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="underline underline-offset-2"
-                  >
-                    {park.photoCredit}
-                  </a>
-                </figcaption>
-              </figure>
+              <div className="grid grid-cols-2 gap-px bg-line md:grid-cols-1">
+                {[
+                  [park.photo, park.photoCaption, park.photoCredit, park.photoCreditUrl],
+                  [park.photo2, park.photo2Caption, park.photo2Credit, park.photo2CreditUrl],
+                ].map(([src, caption, credit, href]) => (
+                  <figure key={src} className="bg-sand">
+                    <img src={src} alt={caption} className="h-44 w-full object-cover md:h-56" />
+                    <figcaption className="px-3 py-2 text-xs leading-snug text-muted">
+                      {caption}{" "}
+                      <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                        {credit}
+                      </a>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
               <div className="p-4 md:p-6">
                 <p className="text-sm font-medium text-reef">
                   {park.rank} · {park.driveMin} min · {park.driveKm.toFixed(1)} km from the lagoon

@@ -46,6 +46,10 @@ export type Park = {
   photoCaption: string;
   photoCredit: string;
   photoCreditUrl: string;
+  photo2: string;
+  photo2Caption: string;
+  photo2Credit: string;
+  photo2CreditUrl: string;
 };
 
 const g = (query: string) =>
@@ -96,6 +100,11 @@ export const PARKS: Park[] = [
     photoCredit: "Steve Gibson, CC BY 2.0",
     photoCreditUrl:
       "https://commons.wikimedia.org/wiki/File:Looking_from_Coral_Esplanade,_Cannonvale,_across_Pioneer_Bay_to_Pigeon_Island,_2007.jpg",
+    photo2: "parks/nrma-2.jpg",
+    photo2Caption:
+      "Cannonvale Beach in 2012, about a five-minute walk from the park. This is the beach, not the grounds.",
+    photo2Credit: "Ian Sutton, CC BY 2.0",
+    photo2CreditUrl: "https://commons.wikimedia.org/wiki/File:Cannonvale_beach,_2012.jpg",
   },
   {
     id: "tasman",
@@ -141,6 +150,11 @@ export const PARKS: Park[] = [
       "Airlie Beach main street. Tasman puts the centre of town at an 18-minute walk from the park.",
     photoCredit: "Richard N Horne, CC BY 4.0",
     photoCreditUrl: "https://commons.wikimedia.org/wiki/File:Airlie_Beach,_Main_Street.jpg",
+    photo2: "parks/tasman-2.jpg",
+    photo2Caption:
+      "The foreshore path at Airlie Beach. Tasman puts the centre of town at an 18-minute walk.",
+    photo2Credit: "Richard N Horne, CC BY 4.0",
+    photo2CreditUrl: "https://commons.wikimedia.org/wiki/File:Airlie_Beach_Pathway.jpg",
   },
   {
     id: "discovery",
@@ -186,6 +200,11 @@ export const PARKS: Park[] = [
       "The BIG4 park at Jubilee Pocket in August 2009. That park is now Discovery Parks – Airlie Beach.",
     photoCredit: "Geoff & Dianne Rhodes, CC BY 2.0",
     photoCreditUrl: "https://commons.wikimedia.org/wiki/File:Caravan_park,_Jubilee_Pocket,_2009.jpg",
+    photo2: "parks/discovery-2.jpg",
+    photo2Caption:
+      "The Beak lookout, Conway National Park, November 2024. The park backs onto this national park. This is the lookout, not the grounds.",
+    photo2Credit: "Hagai Agmon-Snir, CC BY-SA 4.0",
+    photo2CreditUrl: "https://commons.wikimedia.org/wiki/File:TheBeakLookoutNov042024_02.jpg",
   },
   {
     id: "adventure",
@@ -232,6 +251,12 @@ export const PARKS: Park[] = [
     photoCredit: "John Robert McPherson, CC BY-SA 4.0",
     photoCreditUrl:
       "https://commons.wikimedia.org/wiki/File:Airlie_Beach_looking_west,_Airlie_Beach_IMGP0257.jpg",
+    photo2: "parks/adventure-2.jpg",
+    photo2Caption:
+      "Dawn on Pioneer Bay at Cannonvale. The resort is on this side of town. This is the bay, not the water park.",
+    photo2Credit: "John Robert McPherson, CC BY-SA 4.0",
+    photo2CreditUrl:
+      "https://commons.wikimedia.org/wiki/File:Dawn,_Pioneer_Bay,_Cannonvale,_IMGP0017.jpg",
   },
   {
     id: "islands",
@@ -276,6 +301,12 @@ export const PARKS: Park[] = [
     photoCredit: "John Robert McPherson, CC BY-SA 4.0",
     photoCreditUrl:
       "https://commons.wikimedia.org/wiki/File:Shute_Harbour_anchorage,_Shute_Harbour_IMGP0102.jpg",
+    photo2: "parks/islands-2.jpg",
+    photo2Caption:
+      "Flametree in 2004, the suburb the park is in. This house is not the holiday park.",
+    photo2Credit: "James Burke, CC BY 2.0",
+    photo2CreditUrl:
+      "https://commons.wikimedia.org/wiki/File:Flametree,_Queensland,_Australia,_2004.jpg",
   },
   {
     id: "proserpine",
@@ -320,6 +351,11 @@ export const PARKS: Park[] = [
       "Proserpine Entertainment Centre, May 2023. The holiday park is on Anzac Road, a short walk from the main street.",
     photoCredit: "Greditdesu, CC BY-SA 4.0",
     photoCreditUrl: "https://commons.wikimedia.org/wiki/File:Proserpine_Entertainment_Centre_May_2023.jpg",
+    photo2: "parks/proserpine-2.jpg",
+    photo2Caption:
+      "Main Street, Proserpine. The holiday park is about a 15-minute walk from here. Not the grounds.",
+    photo2Credit: "Greditdesu, CC BY-SA 3.0",
+    photo2CreditUrl: "https://commons.wikimedia.org/wiki/File:Main_Street_Proserpine.jpg",
   },
   {
     id: "conway",
@@ -366,6 +402,12 @@ export const PARKS: Park[] = [
     photoCredit: "State Library of Queensland, public domain",
     photoCreditUrl:
       "https://commons.wikimedia.org/wiki/File:StateLibQld_2_242179_View_from_the_cliff_at_low_tide,_Conway_Beach,_Proserpine,_1937-1938.jpg",
+    photo2: "parks/conway-2.jpg",
+    photo2Caption:
+      "Coral Beach walking track in Conway National Park. That is a different beach, near Shute Harbour, not the park at Conway Beach.",
+    photo2Credit: "Timothy Wakeham, CC BY-SA 4.0",
+    photo2CreditUrl:
+      "https://commons.wikimedia.org/wiki/File:Coral_Beach_Walking_Track,_Conway_National_Park.jpg",
   },
   {
     id: "hydeaway",
@@ -410,6 +452,11 @@ export const PARKS: Park[] = [
     photoCaption: "Hydeaway Bay in 2021. The caravan park is a short walk from this beach.",
     photoCredit: "Allan Henderson, CC BY 2.0",
     photoCreditUrl: "https://commons.wikimedia.org/wiki/File:Hydeaway_Bay,_2021.jpg",
+    photo2: "parks/hydeaway-2.jpg",
+    photo2Caption:
+      "Boats at Dingo Beach in 2009, the next beach around from Hydeaway Bay. Not the park.",
+    photo2Credit: "Allan Henderson, CC BY 2.0",
+    photo2CreditUrl: "https://commons.wikimedia.org/wiki/File:Boating,_Dingo_Beach,_2009.jpg",
   },
 ];
 
