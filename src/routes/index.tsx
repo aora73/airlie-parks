@@ -424,7 +424,7 @@ function Home() {
             Accommodation ledger
           </a>
           {" · "}
-          <a href="https://aora73.github.io/airlie-parks/" className="font-semibold text-ink underline underline-offset-2">
+          <a href="https://aora73.github.io/aora-visitor-guides/airlie-parks/" className="font-semibold text-ink underline underline-offset-2">
             This page
           </a>
           {" · "}
