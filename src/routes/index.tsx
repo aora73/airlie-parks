@@ -99,6 +99,20 @@ function Home() {
           </a>
           .
         </p>
+        <figure className="mt-6">
+          <video
+            className="mx-auto aspect-[9/16] w-full max-w-xs border border-line bg-ink"
+            controls
+            playsInline
+            preload="metadata"
+            poster="parks/lagoon.jpg"
+          >
+            <source src="reel.mp4" type="video/mp4" />
+          </video>
+          <figcaption className="mt-2 text-center text-xs text-muted">
+            One minute. Eight parks, timed from the lagoon.
+          </figcaption>
+        </figure>
         <figure className="mt-6 overflow-hidden border border-line">
           <img
             src="parks/lagoon.jpg"
