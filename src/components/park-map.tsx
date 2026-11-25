@@ -27,10 +27,14 @@ export function ParkMap({ parks, selectedId, onSelect }: Props) {
         scrollWheelZoom: false,
         zoomControl: true,
       });
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-        attribution: "&copy; OpenStreetMap &copy; CARTO",
-        maxZoom: 18,
-      }).addTo(map);
+      L.tileLayer(
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+        {
+          attribution:
+            "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, NGCC, &copy; OpenStreetMap contributors, GIS User Community",
+          maxZoom: 19,
+        },
+      ).addTo(map);
       mapRef.current = map;
       layerRef.current = L.layerGroup().addTo(map);
       setReady(true);
@@ -58,9 +62,9 @@ export function ParkMap({ parks, selectedId, onSelect }: Props) {
 
       const lagoon = L.circleMarker([LAGOON.lat, LAGOON.lng], {
         radius: 7,
-        color: "#f3eee4",
+        color: "#f6f4ef",
         weight: 2,
-        fillColor: "#b85c38",
+        fillColor: "#c83f28",
         fillOpacity: 1,
       });
       lagoon.bindTooltip("Airlie Beach Lagoon — town centre", { direction: "top" });

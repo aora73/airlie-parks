@@ -131,8 +131,7 @@ function Home() {
               Map
             </h2>
             <p className="text-sm text-muted">
-              The red dot is the lagoon. Numbers are the drive rank. Airlie is the default so the
-              five close parks stay readable.
+              The red dot is the lagoon. Numbers are the drive rank. Airlie is the default so the five close parks stay readable. The base map is Esri street tiles — no map key.
             </p>
           </div>
           <div className="flex gap-2">
