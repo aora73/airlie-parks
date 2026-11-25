@@ -382,42 +382,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="mt-12 border-t border-line pt-6 text-sm text-muted" aria-labelledby="notes-heading">
-        <h2 id="notes-heading" className="font-display text-xl font-semibold text-ink">
-          How the numbers were made
-        </h2>
-        <ul className="mt-3 grid max-w-3xl gap-2">
-          <li>
-            Town centre is the Airlie Beach Lagoon, Shute Harbour Road (−20.2672, 148.7174). Drive
-            times and distances are one-way car routes on the OpenStreetMap road network (OSRM),
-            free-flow, not live traffic. Checked 24 November 2026.
-          </li>
-          <li>
-            Where a park’s own copy says a shorter time — Conway “about 30 minutes”, Hydeaway “about
-            45”, Proserpine “about 20” — that line is quoted on the card. The table uses the mapped
-            route, which is the slower, longer figure.
-          </li>
-          <li>
-            Google scores are from Google’s hotel listings (or, for Tasman and Conway, a published
-            extract of those reviews). Tripadvisor scores are from each property page. Hydeaway’s
-            Google 3.9 is stable across directories; the review count is about 200 on Google-style
-            listings and higher when mixed sources are bundled, so the count is shown as approximate.
-            Proserpine did not have a separate Google total in the sources checked.
-          </li>
-          <li>
-            Scores move. Facilities, pet rules and construction notes were taken from operator pages
-            current in October–November 2026 (Camplify’s 13 October 2026 roundup, BIG4, NRMA,
-            Discovery, Tasman, Whitsunday Regional Council, Hydeaway Bay). Ring the park before you
-            rely on pets, a dump point marked “Ask”, or a site under the water slide.
-          </li>
-          <li>
-            Photographs are real and freely licensed, mostly from Wikimedia Commons. Where a current
-            photo of the grounds was not available, the picture is of the beach or the town, and the
-            caption says so. None of them are generated.
-          </li>
-        </ul>
-      </section>
-      <footer className="mt-10 border-t border-line pt-6 text-sm text-muted">
+      <footer className="mt-10 border-t border-line pt-4 text-sm text-muted">
         <p>
           Australian Offroad Academy · Dingo Dave.{" "}
           <a href="https://aora-fieldstay.grok.me/" className="font-semibold text-ink underline underline-offset-2">
@@ -433,6 +398,11 @@ function Home() {
             className="font-semibold text-ink underline underline-offset-2"
           >
             GitHub
+          </a>
+        </p>
+        <p className="mt-2 text-xs">
+          <a href="numbers" className="underline underline-offset-2">
+            How the numbers were made
           </a>
         </p>
       </footer>
